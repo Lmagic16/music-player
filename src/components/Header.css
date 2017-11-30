@@ -1,0 +1,25 @@
+.Header-header {
+  padding: 20px;
+  padding-bottom: 0px;
+  background-color: #fff;
+}
+
+.Header-logo {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+}
+
+.Header-title {
+  display: inline-block;
+  font-size: 1.2em;
+  vertical-align: middle;
+  padding-left: 20px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 2px solid #D0D0D0;
+}

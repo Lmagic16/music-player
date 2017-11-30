@@ -1,0 +1,11 @@
+.Progress-container {
+  height: 5px;
+  background-color: #ccc;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.Progress-bar {
+  height: 5px;
+  width: 0%;
+  border-radius: 3px;
+}

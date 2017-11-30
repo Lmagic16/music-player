@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei";
+  background-color: #F8F8F8;
+}
+@import url('../node_modules/font-awesome/css/font-awesome.min.css')

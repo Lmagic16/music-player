@@ -1,0 +1,9 @@
+.MusicItem-li {
+    list-style: none;
+    padding: 10px 10px;
+    border-bottom: 1px solid #D0D0D0;
+    cursor: pointer;
+}
+.focus {
+    color: #2f9842;
+}
