@@ -1,6 +1,14 @@
 ## React练手项目-音乐播放器
+### 所用技术
+框架：React  
+路由：react-router  
+音乐播放器(多媒体库插件)：jPlayer    
+事件发布/订阅库：pubsub-js  
+状态管理：mobx  
 
-## overview
+### 项目结构
+
+### overview
 
 ## 如何运行
 
