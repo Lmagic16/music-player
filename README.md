@@ -4,12 +4,38 @@
 路由：react-router  
 音乐播放器(多媒体库插件)：jPlayer    
 事件发布/订阅库：pubsub-js  
-状态管理：mobx  
 
-### 项目结构
+### 项目src结构
+```
+src/
+├─App.js
+├─App.test.js
+├─index.css
+├─index.js
+├─registerServiceWorker.js
+├─static
+|   ├─images
+|   |   └logo.png
+├─page
+|  ├─MusicList.css
+|  ├─MusicList.js
+|  ├─Player.css
+|  └Player.js
+├─config
+|   └config.js
+├─components
+|     ├─Header.css
+|     ├─Header.js
+|     ├─MusicItem.css
+|     ├─MusicItem.js
+|     ├─Progress.css
+|     └Progress.js
+
+```
 
 ### overview
-
+![](https://i.imgur.com/MEJAE81.jpg)
+![](https://i.imgur.com/rHuXgae.jpg)
 ## 如何运行
 
 ### 安装
@@ -61,7 +87,7 @@ npm install module-name -save-dve 自动把模块和版本号添加到devdepende
  上一首和下一首不用if-else判断是否溢出数组长度，可采用对数组长度取余的方式；上一首为了防止出现id为负数，可加上数组长度再取余；   
 
 ### jPlayer API
-<pre>
+```javascript
 /*jplayer初始化*/
 $("#player").jPlayer({
   supplied: "mp3",
@@ -96,4 +122,10 @@ event.jPlayer.options.volume
 
 /*当前播放进度百分比0-100*/
 event.jPlayer.status.currentPercentAbsolute
-</pre>
+```
+
+### 后续工作
+- 优化CSS以及手机端的自适应
+- 引入获取音乐的API，增加音乐库
+- 增加功能
+- 增加状态管理：mobx  
